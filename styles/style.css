@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+body {
+    background-color: rgb(25, 31, 31);
+}
+.wrapper {
+}
+.counter {
+    margin: 30vh auto;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgb(64, 52, 52);
+}
+
+.count {
+    display: flex;
+    gap: 5px;
+}
+.minute {
+}
+.second {
+}
+.millisecond {
+}
+
+
+
+.buttons {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+}
+.reset {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.stop {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.start {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
