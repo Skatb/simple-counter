@@ -1,55 +1,42 @@
 @import url(reset.css);
 
 body {
-    background-color: rgb(25, 31, 31);
+    background: linear-gradient(90deg, rgba(37,39,42,1) 0%, rgba(42,63,246,1) 100%)
 }
 .wrapper {
 }
 .counter {
     margin: 30vh auto;
-    width: 250px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 30px;
     padding: 25px;
+    gap: 30px;
     border-radius: 15px;
-    background-color: rgb(64, 52, 52);
+    background-color: rgb(255, 255, 255);
 }
 
 .count {
     display: flex;
-    gap: 5px;
+    gap: 25px;
+    font-size: 3rem;
 }
-.minute {
-}
-.second {
-}
-.millisecond {
-}
-
-
-
 .buttons {
     display: flex;
     margin-top: 5px;
     gap: 10px;
 }
-.reset {
-    padding: 10px;
+.button {
+    color: rgb(53, 52, 52);
+    font-size: 40px;
+    padding: 10px 20px 15px 20px;
     background-color: #fff;
     border-radius: 15px;
     cursor: pointer;
+    transition: all 0.5s ease 0s;
 }
-.stop {
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 15px;
-    cursor: pointer;
-}
-.start {
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 15px;
-    cursor: pointer;
+.button:hover {
+    background-color: rgb(232, 64, 64);
 }
